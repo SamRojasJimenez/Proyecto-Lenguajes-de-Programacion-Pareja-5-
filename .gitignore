@@ -1,0 +1,29 @@
+# Docker
+.docker/
+data/
+db_data/
+
+# PHP / Apache
+vendor/
+.htaccess
+error_log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# Sistema / IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Reportes (No subir el archivo generado dinámicamente)
+src/web/reports/*.txt
+src/logic/reports/*.txt
